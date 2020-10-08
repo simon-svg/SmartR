@@ -1,0 +1,12 @@
+.featured-works{
+    width: 100%;
+    padding: 130px 0;
+    background-color: #fbfbfb;
+}
+.featured-works__cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 115px;
+}

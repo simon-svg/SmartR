@@ -1,0 +1,10 @@
+.services{
+    width: 100%;
+    background-color: white;
+    padding: 130px 0;
+}
+.services__cont{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+}

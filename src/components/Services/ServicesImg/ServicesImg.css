@@ -1,0 +1,10 @@
+.services__img{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services__img_apple{
+    width: 100%;
+    display: block;
+}

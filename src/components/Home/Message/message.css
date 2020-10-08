@@ -1,0 +1,64 @@
+.home__bot{
+    width: 100%;
+    margin-top: 110px;
+    display: flex;
+}
+.message{
+    background-color: white;
+    box-shadow: 5px 5px 50px 5px #d3d3d3;
+    padding: 25px 35px;
+    display: flex;
+    flex-direction: column;
+}
+.message__title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #393634;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.message__cont{
+    display: flex;
+    flex-direction: column;
+}
+.message__input{
+    color: #666666;
+    width: 295px;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: none;
+    border-bottom: 1px solid #666666;
+    outline: none;
+    margin-top: 35px;
+    padding-bottom: 10px;
+}
+.message__textarea{
+    padding-bottom: 70px;
+    resize: none;
+}
+.message__but{
+    width: 235px;
+    height: 50px;
+    background-color: #df5d3b;
+    color: white;
+    margin: 20px auto 0;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.message__but_icon{
+    color: white;
+    margin-left: 10px;
+}
+.message__but:hover{
+    background-color: #ce5132;
+}
