@@ -12,7 +12,7 @@ import Home from './components/Home';
 import WorkingProcess from './components/WorkingProcess';
 import FeaturedWorks from './components/FeaturedWorks';
 import Services from './components/Services';
-
+import Team from './components/Team';
 
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
       <WorkingProcess />
       <FeaturedWorks />
       <Services />
+      <Team />
     </div>
   );
 }

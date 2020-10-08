@@ -1,0 +1,101 @@
+.team__cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+.team__item{
+    position: relative;
+    width: calc(33.3333% - 20px);
+    background-color: #df5c3b;
+    padding: 170px 0;
+    box-shadow: 5px 5px 50px 5px #d3d3d3;
+    transition: background-color ease .4s;
+}
+.team__item:hover{
+    background-color: #fbf2f0;
+}
+.team__item:hover .team__item_info{
+    opacity: 1;
+    visibility: visible;
+}
+.team__item:hover .team__item_bot{
+    transform: translate(-50%, 0);
+    background-color: #fbf2f0;
+}
+.team__item_cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team__item_info{
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease .4s;
+}
+.team__info_item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.team__info_item:first-child{
+    margin-top: 0;
+}
+.team__info_item_title{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 7px;
+}
+.team__info_item_line{
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #7f7e7e;
+    position: relative;
+}
+.team__item_line{
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #df5c3b;
+}
+.team__item_line_60{
+    width: 60%;
+}
+.team__item_line_80{
+    width: 80%;
+}
+.team__item_line_70{
+    width: 70%;
+}
+.team__item_bot{
+    position: absolute;
+    width: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px 0;
+    border-radius: 5px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    transition: all ease .4s;
+}
+.team__item_bot_title{
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.team__item_bot_subtitle{
+    font-size: 16px;
+    font-weight: 300;
+}
