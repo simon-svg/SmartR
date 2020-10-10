@@ -13,6 +13,7 @@ import WorkingProcess from './components/WorkingProcess';
 import FeaturedWorks from './components/FeaturedWorks';
 import Services from './components/Services';
 import Team from './components/Team';
+import Clients from './components/Clients';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <FeaturedWorks />
       <Services />
       <Team />
+      <Clients />
     </div>
   );
 }

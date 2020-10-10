@@ -1,0 +1,125 @@
+.clients{
+    width: 100%;
+    padding: 130px 0;
+}
+.clients__cont{
+    width: 100%;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.clients__cont_arrow{
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    box-shadow: 5px 5px 15px 5px #d3d3d3;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: background-color ease .4s;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clients__arrow_icon{
+    color: black;
+    font-size: 17px;
+    transition: color ease .4s;
+}
+.clients__cont_arrow:hover{
+    background-color: #e16e4b;
+}
+.clients__cont_arrow:hover .clients__arrow_icon{
+    color: white;
+}
+.clients__cont_arrowL{
+    left: 0;
+}
+.clients__cont_arrowR{
+    right: 0;
+}
+.clients__cont_inside{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clients__cont_items{
+    width: calc(100% - 90px);
+    display: flex;
+    justify-content: space-between;
+}
+.clients__cont_item{
+    width: calc(50% - 20px);
+    background-color: white;
+    box-shadow: 5px 5px 25px 5px #d3d3d3;
+    padding: 90px 45px 40px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.clients__item_image{
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 1px solid #cfcfd0;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+}
+.clients__item_info{
+    color: #4c4c4c;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.clients__item_stars{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.clients__item_star{
+    margin-left: 5px;
+    cursor: pointer;
+}
+.clients__item_star:first-child{
+    margin-left: 0;
+}
+.clients__item_bot{
+    color: #333333;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: italic;
+}
+.clients__item_bot_bold{
+    font-weight: 600;
+    text-transform: capitalize;
+    font-style: normal;
+}
+.clients__cont_panel{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.clients__cont_panel_item{
+    width: 19px;
+    height: 6px;
+    background-color: #dfdfdf;
+    border-radius: 3px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.clients__cont_panel_item:first-child{
+    margin-left: 0;
+}
+.clients__cont_panel_item:hover{
+    background-color: #e16e4b;
+}

@@ -10,9 +10,6 @@ import Title from '../../commons/title'
 // constants
 import workingProcessObj from '../../constants/WorkingProcessObj';
 
-// img
-import '../../img/koc.png'
-
 
 function WorkingProcess() {
     return (
