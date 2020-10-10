@@ -10,3 +10,13 @@
     flex-wrap: wrap;
     margin-top: 115px;
 }
+.featured-works__item{
+    width: calc(33.33333% - 20px);
+    height: 355px;
+    margin-top: 30px;
+}
+.featured-works__item:nth-child(1),
+.featured-works__item:nth-child(2),
+.featured-works__item:nth-child(3){
+    margin-top: 0;
+}

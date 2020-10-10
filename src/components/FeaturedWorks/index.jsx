@@ -5,30 +5,28 @@ import ReactDOM from 'react-dom';
 import './featuredWorks.css';
 
 // constants
-import Title from '../../constants/title'
+import featuredWorksObj from '../../constants/FeaturedWorksObj/index.js';
 
-// components
-import Works from './Works';
+// commons
+import Title from '../../commons/title'
 
 
-function FeaturedWorks(){
-    return(
+function FeaturedWorks() {
+    return (
         <section className="featured-works">
-            <Title 
-            title={<span><span className="logo__name_color">featured</span> works</span>}
-            subtitle="lorem impsum dolor sit amet la dhes birut dolor sit amet la dhes birut"
+            <Title
+                title={<span><span className="logo__name_color">featured</span> works</span>}
+                subtitle="lorem impsum dolor sit amet la dhes birut dolor sit amet la dhes birut"
             />
             <div className="wrapper">
                 <div className="featured-works__cont">
-                    <Works />
-                    <Works />
-                    <Works />
-                    <Works />
-                    <Works />
-                    <Works />
-                    <Works />
-                    <Works />
-                    <Works />
+                    {
+                        featuredWorksObj.map((item) => {
+                            return (
+                                <div className="featured-works__item" key={item.id} style={{backgroundColor: item.bgColor}}></div>
+                            )
+                        })
+                    }
                 </div>
             </div>
         </section>

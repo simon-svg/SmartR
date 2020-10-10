@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import './team.css';
 
 // constants
-import Title from '../../constants/title';
+import Title from '../../commons/title';
 
 // components
 import TeamItem from './TeamItem';

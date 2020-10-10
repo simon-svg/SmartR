@@ -8,7 +8,7 @@ import './home.css';
 import Message from './Message'
 
 // constants
-import Title from '../../constants/title'
+import Title from '../../commons/title'
 
 
 function Home() {

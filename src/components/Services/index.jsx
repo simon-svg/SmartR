@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom';
 import './services.css';
 
 // constants
-import Title from '../../constants/title'
+import Title from '../../commons/title'
 
 // components
 import Icons from './Icons';
