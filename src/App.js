@@ -14,6 +14,8 @@ import FeaturedWorks from './components/FeaturedWorks';
 import Services from './components/Services';
 import Team from './components/Team';
 import Clients from './components/Clients';
+import Sites from './components/Sites';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
       <Services />
       <Team />
       <Clients />
+      <Sites />
+      <Footer />
     </div>
   );
 }
