@@ -43,3 +43,26 @@
     cursor: pointer;
     outline: none;
 }
+
+/* 
+response 
+*/
+
+@media screen and (max-width: 992px) {
+    .services-info{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 755px) {
+    .services-info{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 705px) {
+    .services-info__title{
+        font-size: 25px;
+    }
+    .services-info__par{
+        font-size: 13px;
+    }
+}

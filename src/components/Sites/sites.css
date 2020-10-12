@@ -16,3 +16,18 @@
     width: 70%;
     display: block;
 }
+
+/* 
+response 
+*/
+
+@media screen and (max-width: 992px) {
+    .sites__item{
+        width: 33.3333%;
+    }
+    .sites__item:nth-child(4),
+    .sites__item:nth-child(5),
+    .sites__item:nth-child(6){
+        display: none;
+    }
+}

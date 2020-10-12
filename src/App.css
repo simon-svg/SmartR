@@ -9,3 +9,13 @@ body{
     text-transform: capitalize;
     color: #e5917c;
 }
+
+/*
+response 
+*/
+
+@media screen and (max-width: 1150px) {
+    .wrapper {
+      width: 95%;
+    }
+}

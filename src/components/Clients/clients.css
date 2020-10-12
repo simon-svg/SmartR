@@ -123,3 +123,26 @@
 .clients__cont_panel_item:hover{
     background-color: #e16e4b;
 }
+
+/* 
+response 
+*/
+
+@media screen and (max-width: 992px) {
+    .clients__cont_items{
+        justify-content: center;
+    }
+    .clients__cont_item:last-child{
+        display: none;
+    }
+}
+@media screen and (max-width: 755px) {
+    .clients__cont_item{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 755px) {
+    .clients{
+        padding: 70px 0;
+    }
+}

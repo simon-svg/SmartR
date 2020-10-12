@@ -20,3 +20,42 @@
 .featured-works__item:nth-child(3){
     margin-top: 0;
 }
+
+/* 
+response 
+*/
+
+@media screen and (max-width: 992px) {
+    .featured-works__item{
+        width: calc(50% - 10px);
+        margin-left: 0;
+    }
+    .featured-works__item:nth-child(3){
+        margin-top: 30px;
+    }
+    .featured-works__item:nth-child(2n){
+        margin-left: 20px;
+    }
+    .featured-works__cont{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 755px) {
+    .featured-works__item{
+        height: 300px;
+    }
+    .featured-works{
+        padding: 70px 0;
+    }
+}
+@media screen and (max-width: 600px) {
+    .featured-works__item{
+        width: 100%;
+    }
+    .featured-works__item:nth-child(2){
+        margin-top: 30px;
+    }
+    .featured-works__item:nth-child(2n){
+        margin-left: 0;
+    }
+}

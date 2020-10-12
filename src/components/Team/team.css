@@ -3,3 +3,13 @@
     padding: 130px 0;
     background-color: #fbfbfb;
 }
+
+/* 
+response 
+*/
+
+@media screen and (max-width: 755px) {
+    .team{
+        padding: 70px 0;
+    }
+}

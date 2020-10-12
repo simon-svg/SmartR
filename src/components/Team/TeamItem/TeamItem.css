@@ -99,3 +99,44 @@
     font-size: 16px;
     font-weight: 300;
 }
+
+/* 
+response 
+*/
+
+@media screen and (max-width: 992px) {
+    .team__cont{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .team__item{
+        width: calc(50% - 20px);
+    }
+    .team__item:nth-child(2){
+        margin-left: 40px;
+    }
+    .team__item:last-child{
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 755px) {
+    .team__item{
+        width: 80%;
+    }
+    .team__item:nth-child(2){
+        margin-left: 0;
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width: 705px) {
+    .team__cont{
+        margin-top: 70px;
+    }
+    .team__item_bot_title{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+    .team__item_bot_subtitle{
+        font-size: 13px;
+    }
+}

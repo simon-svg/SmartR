@@ -8,3 +8,33 @@
     display: flex;
     justify-content: space-between;
 }
+
+/* 
+response 
+*/
+
+@media screen and (max-width: 992px) {
+    .services__cont{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 755px) {
+    .featured-works__item{
+        height: 300px;
+    }
+    .services__cont{
+        flex-direction: column;
+        align-items: center;
+    }
+    .services-info{
+        width: 95%;
+    }
+}
+@media screen and (max-width: 755px) {
+    .services{
+        padding: 70px 0;
+    }
+    .services__cont{
+        margin-top: 70px;
+    }
+}
