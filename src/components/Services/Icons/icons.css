@@ -39,4 +39,21 @@ response
     .icons__item{
         margin: 0 20px 0 0;
     }
+    .icons__item:last-child{
+        margin: 0;
+    }
+}
+@media screen and (max-width: 550px) {
+    .icons{
+        width: 230px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .icons__item{
+        margin: 0;
+    }
+    .icons__item:nth-child(3),
+    .icons__item:nth-child(4){
+        margin-top: 20px;
+    }
 }

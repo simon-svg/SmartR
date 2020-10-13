@@ -31,3 +31,16 @@ response
         display: none;
     }
 }
+@media screen and (max-width: 400px) {
+    .sites__cont{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sites__item{
+        width: 70%;
+        margin-top: 20px;
+    }
+    .sites__item:first-child{
+        margin-top: 0;
+    }
+}

@@ -24,8 +24,13 @@ response
         height: 100%;
     }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 755px) {
     .home__cont_title{
         width: 95%;
+    }
+}
+@media screen and (max-width: 550px) {
+    .home__bot{
+        justify-content: center;
     }
 }
