@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/SmartR/static/css/main.0e493e6c.chunk.css",
+    "main.js": "/SmartR/static/js/main.f32a5d0d.chunk.js",
+    "main.js.map": "/SmartR/static/js/main.f32a5d0d.chunk.js.map",
+    "runtime-main.js": "/SmartR/static/js/runtime-main.92b0d2e1.js",
+    "runtime-main.js.map": "/SmartR/static/js/runtime-main.92b0d2e1.js.map",
+    "static/js/2.674ce841.chunk.js": "/SmartR/static/js/2.674ce841.chunk.js",
+    "static/js/2.674ce841.chunk.js.map": "/SmartR/static/js/2.674ce841.chunk.js.map",
+    "index.html": "/SmartR/index.html",
+    "precache-manifest.ae2fece53d9e354fc824fc0c10032d05.js": "/SmartR/precache-manifest.ae2fece53d9e354fc824fc0c10032d05.js",
+    "service-worker.js": "/SmartR/service-worker.js",
+    "static/css/main.0e493e6c.chunk.css.map": "/SmartR/static/css/main.0e493e6c.chunk.css.map",
+    "static/js/2.674ce841.chunk.js.LICENSE.txt": "/SmartR/static/js/2.674ce841.chunk.js.LICENSE.txt",
+    "static/media/fonts.css": "/SmartR/static/media/OpenSans-SemiBoldItalic.da6f476d.woff2",
+    "static/media/apple.png": "/SmartR/static/media/apple.0086c000.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.92b0d2e1.js",
+    "static/js/2.674ce841.chunk.js",
+    "static/css/main.0e493e6c.chunk.css",
+    "static/js/main.f32a5d0d.chunk.js"
+  ]
+}
